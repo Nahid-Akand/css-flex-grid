@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex layout</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+
+        .container{
+            display: flex;
+            /* flex-direction: column-reverse; */
+            justify-content: space-around;
+        }
+
+        .box{
+            border: 2px solid blue;
+            height: 50px;
+            font-size: 2rem;
+            display: flex;
+
+
+        }
+
+
+        .pic-container{
+            display: flex;
+            border: 3px solid green;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+
+        div{
+            font-size: 2rem;
+        }
+
+        .user-container{
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .user{
+            border: 3px solid red;
+            height: 100px;
+        }
+
+        .picture{
+            width: 200px;
+            height: 200px;
+            border: 3px solid yellowgreen;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="flex.html">flix</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="banner.html">Banner</a></li>
+            <li><a href="contact.html">contact us</a></li>
+            <li><a href="nav.html">navigation</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="pic-container">
+        <div class="picture">picture-1</div>
+    </div>
+
+    <div class="user-container">
+        <div class="user">user -1</div>
+        <div class="user">user -2</div>
+        <div class="user">user -3</div>
+        <div class="user">user -4</div>
+        <div class="user">user -5</div>
+        <div class="user">user -6</div>
+        <div class="user">user -7</div>
+        <div class="user">user -8</div>
+        <div class="user">user -9</div>
+        <div class="user">user -10</div>
+        <div class="user">user -11</div>
+        <div class="user">user -12</div>
+        <div class="user">user -13</div>
+        <div class="user">user -14</div>
+        <div class="user">user -15</div>
+        <div class="user">user -16</div>
+        <div class="user">user -17</div>
+        <div class="user">user -18</div>
+        <div class="user">user -19</div>
+        <div class="user">user -20</div>
+    </div>
+
+    <!-- <div>
+        <p></p>
+    </div> -->
+    <!-- <div>
+        <article>
+            <section>
+                <p></p>
+            </section>
+        </article>
+    </div>     -->
+
+    <!-- <div>
+        <airticle>
+            <section>
+                <h2></h2>
+            </section>
+        </airticle>
+        <airticle>
+            <section>
+                <h2></h2>
+            </section>
+        </airticle>
+        <airticle>
+            <section>
+                <h2></h2>
+            </section>
+        </airticle>
+    </div> -->
+
+    <!-- <div>
+        <airticle>
+            <section>
+                <h2></h2>
+                <p2></p2>
+            </section>
+        </airticle>
+        <airticle>
+            <section>
+                <h2></h2>
+                <p2></p2>
+            </section>
+        </airticle>
+        <airticle>
+            <section>
+                <h2></h2>
+                <p2></p2>
+            </section>
+        </airticle>
+    </div> -->
+
+    <!-- <div class="container">
+        <h2 class="header" id="first"></h2>
+    </div> -->
+    <!-- <div>
+        <class="container">
+            <div class="item">item -1</div>
+            <div class="item">item -2</div>
+            <div class="item">item -3</div>
+            <div class="item">item -4</div>
+            <div class="item">item -5</div>
+        </container>
+    </div> -->
+
+    <div class="container">
+        <div class="box">box -1</div>
+        <div class="box">box -2</div>
+        <div class="box">box -3</div>
+        <div class="box">box -4</div>
+        <div class="box">box -5</div>
+    </div>
+
+</body>
+</html>
